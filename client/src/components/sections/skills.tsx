@@ -4,27 +4,26 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 
 const skillsData = [
-  { subject: 'React', A: 95, fullMark: 100 },
-  { subject: 'TypeScript', A: 90, fullMark: 100 },
-  { subject: 'Node.js', A: 85, fullMark: 100 },
-  { subject: 'UI/UX', A: 90, fullMark: 100 },
-  { subject: 'Three.js', A: 75, fullMark: 100 },
-  { subject: 'GraphQL', A: 80, fullMark: 100 },
+  { subject: 'Figma', A: 99, fullMark: 100 },
+  { subject: 'Webflow', A: 99, fullMark: 100 },
+  { subject: 'CSS3', A: 95, fullMark: 100 },
+  { subject: 'Node.js', A: 90, fullMark: 100 },
+  { subject: 'React', A: 85, fullMark: 100 },
+  { subject: 'Docker', A: 80, fullMark: 100 },
 ];
 
 const backendData = [
   { name: 'Node.js', level: 90 },
-  { name: 'Python', level: 85 },
-  { name: 'PostgreSQL', level: 80 },
-  { name: 'AWS', level: 75 },
-  { name: 'Docker', level: 70 },
+  { name: 'Docker', level: 80 },
+  { name: 'Java', level: 75 },
+  { name: 'PostgreSQL', level: 75 },
 ];
 
 const designData = [
-  { name: 'Figma', level: 95 },
-  { name: 'Adobe XD', level: 85 },
-  { name: 'Motion', level: 90 },
-  { name: 'Blender', level: 60 },
+  { name: 'Figma', level: 99 },
+  { name: 'Webflow', level: 99 },
+  { name: 'CSS3', level: 95 },
+  { name: 'React', level: 85 },
 ];
 
 export function Skills() {
@@ -41,10 +40,10 @@ export function Skills() {
               transition={{ duration: 0.5 }}
               viewport={{ once: true }}
             >
-              <h2 className="text-3xl md:text-5xl font-bold font-display mb-6">Technical Expertise</h2>
+              <h2 className="text-3xl md:text-5xl font-bold font-display mb-6">Tech-Stack & Skills</h2>
               <p className="text-muted-foreground text-lg mb-8 leading-relaxed">
-                We leverage the most powerful modern technologies to build fast, scalable, and interactive applications. 
-                Our stack is constantly evolving to ensure we deliver cutting-edge solutions.
+                Wir setzen auf modernste Technologien, um schnelle, skalierbare und interaktive Websites und Web-Apps zu entwickeln. 
+                Unser Tech-Stack wird ständig erweitert, um Ihnen stets innovative Lösungen zu liefern.
               </p>
 
               <Tabs defaultValue="frontend" className="w-full">

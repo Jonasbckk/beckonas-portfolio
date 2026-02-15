@@ -6,7 +6,7 @@ export function Footer() {
           BECKONAS
         </div>
         <div className="text-sm text-muted-foreground text-center md:text-right">
-          &copy; {new Date().getFullYear()} Beckonas. All rights reserved. <br className="md:hidden"/> Designed with passion.
+          &copy; {new Date().getFullYear()} Beckonas. Alle Rechte vorbehalten. <br className="md:hidden"/> Mit Leidenschaft gestaltet.
         </div>
       </div>
     </footer>

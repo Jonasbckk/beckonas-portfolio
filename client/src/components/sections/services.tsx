@@ -6,32 +6,32 @@ const services = [
   {
     icon: Layout,
     title: "UI/UX Design",
-    description: "Crafting intuitive and visually stunning interfaces that engage users and drive conversions."
+    description: "Wir gestalten intuitive und visuell überzeugende Designs, die Nutzer begeistern und die Conversion fördern."
   },
   {
     icon: Code,
     title: "Web Development",
-    description: "Building robust, scalable, and high-performance websites using the latest technologies."
+    description: "Leistungsstarke, skalierbare Websites, die mit modernster Technologie zuverlässig funktionieren."
   },
   {
     icon: Smartphone,
     title: "Responsive Design",
-    description: "Ensuring your website looks and performs perfectly on all devices, from mobile to desktop."
+    description: "Perfekte Darstellung und Leistung auf allen Endgeräten, egal ob Smartphone, Tablet oder Desktop."
   },
   {
     icon: Globe,
     title: "E-Commerce",
-    description: "Creating seamless online shopping experiences that help your business grow."
+    description: "Reibungslose E-Commerce-Lösungen, die Kundenerlebnisse verbessern und den Umsatz steigern."
   },
   {
     icon: Search,
     title: "SEO Optimization",
-    description: "Improving your website's visibility on search engines to attract more organic traffic."
+    description: "Ihre Website wird suchmaschinenfreundlich gestaltet, damit Sie mehr organische Besucher anziehen."
   },
   {
     icon: Zap,
     title: "Performance",
-    description: "Optimizing website speed and loading times for the best possible user experience."
+    description: "Maximale Geschwindigkeit und kurze Ladezeiten für die beste User Experience."
   }
 ];
 
@@ -40,9 +40,9 @@ export function Services() {
     <section id="services" className="py-24 relative bg-black/20">
       <div className="container mx-auto px-4">
         <div className="text-center max-w-2xl mx-auto mb-16">
-          <h2 className="text-3xl md:text-5xl font-bold font-display mb-4">Our Services</h2>
+          <h2 className="text-3xl md:text-5xl font-bold font-display mb-4">Unsere Leistungen</h2>
           <p className="text-muted-foreground text-lg">
-            Comprehensive digital solutions tailored to your unique needs. We handle everything from concept to deployment.
+            Websites und Web-Apps, perfekt abgestimmt auf Ihre Anforderungen. Von der Idee bis zum fertigen Produkt begleiten wir Sie durch jeden Schritt.
           </p>
         </div>
 

@@ -21,10 +21,10 @@ export function About() {
               
               <div className="w-full h-full rounded-full overflow-hidden border-4 border-white/10 relative z-10 bg-card">
                  <img 
-                   src={avatarPlaceholder} 
-                   alt="Profile" 
-                   className="w-full h-full object-cover"
-                 />
+                    src={avatarPlaceholder} 
+                    alt="Profile" 
+                    className="w-full h-full object-cover object-[50%_20%]"
+                  />
               </div>
             </motion.div>
           </div>
@@ -36,9 +36,9 @@ export function About() {
               transition={{ duration: 0.5 }}
               viewport={{ once: true }}
             >
-              <h2 className="text-3xl md:text-5xl font-bold font-display mb-6">About Beckonas</h2>
+              <h2 className="text-3xl md:text-5xl font-bold font-display mb-6">Über Beckonas</h2>
               <p className="text-xl text-primary font-medium mb-6">
-                Creating digital experiences that matter.
+                Wir schaffen digitale Erlebnisse, die wirklich zählen.
               </p>
               <p className="text-muted-foreground text-lg mb-8 leading-relaxed">
                 Ich bin ein leidenschaftlicher Webentwickler und Designer mit einem Auge für Details. 

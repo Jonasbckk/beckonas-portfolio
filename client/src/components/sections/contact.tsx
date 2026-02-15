@@ -43,9 +43,9 @@ export function Contact() {
 
       <div className="container mx-auto px-4 relative z-10">
         <div className="text-center max-w-2xl mx-auto mb-16">
-          <h2 className="text-3xl md:text-5xl font-bold font-display mb-4">Let's Work Together</h2>
+          <h2 className="text-3xl md:text-5xl font-bold font-display mb-4">Lassen Sie uns zusammenarbeiten</h2>
           <p className="text-muted-foreground text-lg">
-            Ready to start your next project? Get in touch with us today.
+            Ihr nächstes Projekt wartet – schreiben Sie uns jetzt.
           </p>
         </div>
 
@@ -63,7 +63,7 @@ export function Contact() {
                     <Mail className="w-6 h-6" />
                   </div>
                   <div>
-                    <h3 className="font-semibold text-foreground">Email Us</h3>
+                    <h3 className="font-semibold text-foreground">Email uns</h3>
                     <p className="text-muted-foreground">contact@beckonas.com</p>
                   </div>
                 </CardContent>
@@ -74,19 +74,8 @@ export function Contact() {
                     <Phone className="w-6 h-6" />
                   </div>
                   <div>
-                    <h3 className="font-semibold text-foreground">Call Us</h3>
+                    <h3 className="font-semibold text-foreground">Ruf uns an</h3>
                     <p className="text-muted-foreground">+49 123 456 7890</p>
-                  </div>
-                </CardContent>
-              </Card>
-              <Card className="bg-card/30 backdrop-blur-sm border-white/5 hover:border-primary/30 transition-colors">
-                <CardContent className="flex items-center gap-4 p-6">
-                  <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center text-primary">
-                    <MapPin className="w-6 h-6" />
-                  </div>
-                  <div>
-                    <h3 className="font-semibold text-foreground">Visit Us</h3>
-                    <p className="text-muted-foreground">Berlin, Germany</p>
                   </div>
                 </CardContent>
               </Card>
@@ -109,7 +98,7 @@ export function Contact() {
                     <FormItem>
                       <FormLabel>Name</FormLabel>
                       <FormControl>
-                        <Input placeholder="John Doe" {...field} className="bg-white/5 border-white/10 focus:border-primary/50" />
+                        <Input placeholder="Max Mustermann" {...field} className="bg-white/5 border-white/10 focus:border-primary/50" />
                       </FormControl>
                       <FormMessage />
                     </FormItem>
@@ -122,7 +111,7 @@ export function Contact() {
                     <FormItem>
                       <FormLabel>Email</FormLabel>
                       <FormControl>
-                        <Input placeholder="john@example.com" {...field} className="bg-white/5 border-white/10 focus:border-primary/50" />
+                        <Input placeholder="mustermann@beispiel.com" {...field} className="bg-white/5 border-white/10 focus:border-primary/50" />
                       </FormControl>
                       <FormMessage />
                     </FormItem>
@@ -136,7 +125,7 @@ export function Contact() {
                       <FormLabel>Message</FormLabel>
                       <FormControl>
                         <Textarea 
-                          placeholder="Tell us about your project..." 
+                          placeholder="Erzähle uns von Deiner Idee..." 
                           className="min-h-[150px] bg-white/5 border-white/10 focus:border-primary/50 resize-none" 
                           {...field} 
                         />
@@ -146,7 +135,7 @@ export function Contact() {
                   )}
                 />
                 <Button type="submit" className="w-full bg-primary hover:bg-primary/90 text-white h-12 text-lg">
-                  Send Message <Send className="ml-2 w-4 h-4" />
+                  Nachricht schicken <Send className="ml-2 w-4 h-4" />
                 </Button>
               </form>
             </Form>

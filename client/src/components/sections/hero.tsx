@@ -28,7 +28,7 @@ export function Hero() {
             transition={{ duration: 0.5 }}
           >
             <span className="inline-block py-1 px-3 rounded-full bg-white/5 border border-white/10 text-primary text-sm font-mono mb-6 backdrop-blur-sm">
-              Available for new projects
+              Verfügbar für neue Projekte
             </span>
           </motion.div>
 
@@ -38,9 +38,9 @@ export function Hero() {
             transition={{ duration: 0.5, delay: 0.1 }}
             className="text-5xl md:text-7xl lg:text-8xl font-bold font-display tracking-tight mb-8 leading-[1.1]"
           >
-            We build the <br />
+            Wir bauen die <br />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-purple-400">
-              Future of Web
+              Zukunft des Webs
             </span>
           </motion.h1>
 
@@ -50,8 +50,8 @@ export function Hero() {
             transition={{ duration: 0.5, delay: 0.2 }}
             className="text-xl text-muted-foreground max-w-2xl mx-auto mb-10 leading-relaxed"
           >
-            Beckonas is a premium digital agency crafting high-end websites for ambitious brands and individuals. 
-            Merging aesthetic excellence with cutting-edge technology.
+            Beckonas erstellt hochwertige Websites und Web-Apps für Unternehmen und Privatpersonen. Wir verbinden
+            modernes Design mit innovativer Technologie.
           </motion.p>
 
           <motion.div
@@ -65,7 +65,7 @@ export function Hero() {
               className="bg-primary hover:bg-primary/90 text-white text-lg h-12 px-8 rounded-full shadow-[0_0_20px_rgba(124,58,237,0.5)] transition-all hover:shadow-[0_0_30px_rgba(124,58,237,0.7)] cursor-pointer"
               onClick={() => handleScroll("#services")}
             >
-              View Our Work
+            Projekte anschauen
             </Button>
             <Button 
               variant="outline" 
@@ -73,7 +73,7 @@ export function Hero() {
               className="text-lg h-12 px-8 rounded-full border-white/10 hover:bg-white/5 hover:text-white cursor-pointer"
               onClick={() => handleScroll("#contact")}
             >
-              Contact Us <ArrowRight className="ml-2 w-5 h-5" />
+              Kontaktiere uns <ArrowRight className="ml-2 w-5 h-5" />
             </Button>
           </motion.div>
         </div>
