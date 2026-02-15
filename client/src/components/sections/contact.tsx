@@ -11,9 +11,9 @@ import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from "
 import { useToast } from "@/hooks/use-toast";
 
 const formSchema = z.object({
-  name: z.string().min(2, "Name must be at least 2 characters"),
-  email: z.string().email("Invalid email address"),
-  message: z.string().min(10, "Message must be at least 10 characters"),
+  name: z.string().min(2, "Name muss mindestens 2 character groß sein"),
+  email: z.string().email("Fehlerhafte Email Addresse"),
+  message: z.string().min(10, "Nachricht muss mindestens 10 characters groß sein"),
 });
 
 export function Contact() {
@@ -29,8 +29,8 @@ export function Contact() {
 
   function onSubmit(values: z.infer<typeof formSchema>) {
     toast({
-      title: "Message Sent!",
-      description: "Thanks for reaching out. We'll get back to you soon.",
+      title: "Nachricht gesendet!",
+      description: "Vielen Dank für Ihre Nachricht. Wir melden uns in Kürze bei Ihnen.",
     });
     form.reset();
   }
