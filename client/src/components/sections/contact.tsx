@@ -64,7 +64,7 @@ export function Contact() {
                   </div>
                   <div>
                     <h3 className="font-semibold text-foreground">Email uns</h3>
-                    <p className="text-muted-foreground">contact@beckonas.com</p>
+                    <p className="text-muted-foreground">contact@sides4you.com</p>
                   </div>
                 </CardContent>
               </Card>

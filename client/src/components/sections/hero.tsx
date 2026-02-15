@@ -50,7 +50,7 @@ export function Hero() {
             transition={{ duration: 0.5, delay: 0.2 }}
             className="text-xl text-muted-foreground max-w-2xl mx-auto mb-10 leading-relaxed"
           >
-            Beckonas erstellt hochwertige Websites und Web-Apps für Unternehmen und Privatpersonen. Wir verbinden
+            Sides4you erstellt hochwertige Websites und Web-Apps für Unternehmen und Privatpersonen. Wir verbinden
             modernes Design mit innovativer Technologie.
           </motion.p>
 

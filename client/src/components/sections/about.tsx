@@ -36,13 +36,13 @@ export function About() {
               transition={{ duration: 0.5 }}
               viewport={{ once: true }}
             >
-              <h2 className="text-3xl md:text-5xl font-bold font-display mb-6">Über Beckonas</h2>
+              <h2 className="text-3xl md:text-5xl font-bold font-display mb-6">Über Sides4you</h2>
               <p className="text-xl text-primary font-medium mb-6">
                 Wir schaffen digitale Erlebnisse, die wirklich zählen.
               </p>
               <p className="text-muted-foreground text-lg mb-8 leading-relaxed">
                 Ich bin ein leidenschaftlicher Webentwickler und Designer mit einem Auge für Details. 
-                Mit Beckonas habe ich es mir zur Aufgabe gemacht, Unternehmen und Visionären dabei zu helfen, 
+                Mit Sides4you habe ich es mir zur Aufgabe gemacht, Unternehmen und Visionären dabei zu helfen, 
                 ihre digitale Präsenz auf das nächste Level zu heben. Ich glaube an Design, das nicht nur gut aussieht, 
                 sondern funktioniert.
               </p>

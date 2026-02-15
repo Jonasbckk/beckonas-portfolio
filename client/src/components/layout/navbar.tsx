@@ -8,10 +8,10 @@ export function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   const navLinks = [
-    { name: "Services", href: "#services" },
+    { name: "Leistungen", href: "#services" },
     { name: "Skills", href: "#skills" },
-    { name: "About", href: "#about" },
-    { name: "Contact", href: "#contact" },
+    { name: "Über Uns", href: "#about" },
+    { name: "Kontakt", href: "#contact" },
   ];
 
   const handleScroll = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
@@ -27,7 +27,7 @@ export function Navbar() {
     <nav className="fixed top-0 w-full z-50 bg-background/80 backdrop-blur-md border-b border-white/10">
       <div className="container mx-auto px-4 h-16 flex items-center justify-between">
         <Link href="/" className="text-2xl font-bold font-display tracking-tighter bg-clip-text text-transparent bg-gradient-to-r from-white to-white/60 hover:to-primary transition-all cursor-pointer">
-          BECKONAS
+          SIDES4YOU
         </Link>
 
         {/* Desktop Menu */}
@@ -46,7 +46,7 @@ export function Navbar() {
             className="bg-primary hover:bg-primary/90 text-white rounded-full px-6 cursor-pointer"
             onClick={(e) => handleScroll(e as any, "#contact")}
           >
-            Start Project
+            Projekt starten
           </Button>
         </div>
 
